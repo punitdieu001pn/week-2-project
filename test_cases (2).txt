@@ -1,0 +1,69 @@
+TEST CASES – STUDENT GRADE CALCULATOR
+====================================
+
+------------------------------------
+Test Case 1: Valid Input (Grade B)
+------------------------------------
+Input:
+Student Name: Priya
+Marks: 85
+
+Expected Output:
+Grade: B
+Message: Very Good! Keep it up!
+
+Status: Passed
+
+
+------------------------------------
+Test Case 2: Valid Input (Grade A)
+------------------------------------
+Input:
+Student Name: Rahul
+Marks: 92
+
+Expected Output:
+Grade: A
+Message: Excellent work! Keep shining
+
+Status: Passed
+
+
+------------------------------------
+Test Case 3: Valid Input (Fail Case)
+------------------------------------
+Input:
+Student Name: Neha
+Marks: 58
+
+Expected Output:
+Grade: F
+Message: Don't give up! Learn and try again
+
+Status: Passed
+
+
+------------------------------------
+Test Case 4: Invalid Marks (Out of Range)
+------------------------------------
+Input:
+Student Name: Aman
+Marks: 120
+
+Expected Output:
+Error message: Marks must be between 0 and 100.
+
+Status: Passed
+
+
+------------------------------------
+Test Case 5: Invalid Input (Non-Numeric)
+------------------------------------
+Input:
+Student Name: Kiran
+Marks: abc
+
+Expected Output:
+Error message: Invalid input! Please enter numbers only.
+
+Status: Passed
